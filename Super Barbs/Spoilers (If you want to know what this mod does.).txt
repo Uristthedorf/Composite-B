@@ -1,0 +1,7 @@
+What this mod adds:
+-Some leader traits to barbarians, financial, expansive, protective, aggressive, charismatic.
+-Unique units, such as Quechuas and Praetorians.
+-Lets Barbs make more units, like chariots, musketmen, cavalry, tanks, submarines, stealth destroyers, ICBMs. (Haven't tested the ICBMs but they do in fact get chariots/immortals.)
+-Barbs get duns, totem poles, Gers.
+-Barbs should be able to make settlers.
+-Great wall is unlocked at construction and has cost doubled.
