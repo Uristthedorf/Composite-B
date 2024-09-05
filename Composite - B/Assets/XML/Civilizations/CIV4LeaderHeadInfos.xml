@@ -28955,32 +28955,32 @@
 			<Civilopedia>TXT_KEY_LEADER_JULIUS_CAESAR_PEDIA</Civilopedia>
 			<ArtDefineTag>ART_DEF_LEADER_JULIUS_CAESAR</ArtDefineTag>
 			<iWonderConstructRand>20</iWonderConstructRand>
-			<iBaseAttitude>0</iBaseAttitude>
-			<iBasePeaceWeight>4</iBasePeaceWeight>
+			<iBaseAttitude>-1</iBaseAttitude>
+			<iBasePeaceWeight>1</iBasePeaceWeight>
 			<iPeaceWeightRand>3</iPeaceWeightRand>
 			<iWarmongerRespect>1</iWarmongerRespect>
 			<iEspionageWeight>100</iEspionageWeight>
-			<iRefuseToTalkWarThreshold>8</iRefuseToTalkWarThreshold>
+			<iRefuseToTalkWarThreshold>9</iRefuseToTalkWarThreshold>
 			<iNoTechTradeThreshold>5</iNoTechTradeThreshold>
 			<iTechTradeKnownPercent>40</iTechTradeKnownPercent>
 			<iMaxGoldTradePercent>10</iMaxGoldTradePercent>
 			<iMaxGoldPerTurnTradePercent>10</iMaxGoldPerTurnTradePercent>
-			<iMaxWarRand>100</iMaxWarRand>
+			<iMaxWarRand>50</iMaxWarRand>
 			<iMaxWarNearbyPowerRatio>110</iMaxWarNearbyPowerRatio>
 			<iMaxWarDistantPowerRatio>80</iMaxWarDistantPowerRatio>
 			<iMaxWarMinAdjacentLandPercent>1</iMaxWarMinAdjacentLandPercent>
-			<iLimitedWarRand>100</iLimitedWarRand>
+			<iLimitedWarRand>40</iLimitedWarRand>
 			<iLimitedWarPowerRatio>100</iLimitedWarPowerRatio>
-			<iDogpileWarRand>50</iDogpileWarRand>
+			<iDogpileWarRand>25</iDogpileWarRand>
 			<iMakePeaceRand>40</iMakePeaceRand>
 			<iDeclareWarTradeRand>40</iDeclareWarTradeRand>
-			<iDemandRebukedSneakProb>40</iDemandRebukedSneakProb>
+			<iDemandRebukedSneakProb>60</iDemandRebukedSneakProb>
 			<iDemandRebukedWarProb>10</iDemandRebukedWarProb>
 			<iRazeCityProb>0</iRazeCityProb>
-			<iBuildUnitProb>30</iBuildUnitProb>
+			<iBuildUnitProb>35</iBuildUnitProb>
 			<iBaseAttackOddsChange>2</iBaseAttackOddsChange>
 			<iAttackOddsChangeRand>8</iAttackOddsChangeRand>
-			<iWorseRankDifferenceAttitudeChange>-1</iWorseRankDifferenceAttitudeChange>
+			<iWorseRankDifferenceAttitudeChange>-3</iWorseRankDifferenceAttitudeChange>
 			<iBetterRankDifferenceAttitudeChange>0</iBetterRankDifferenceAttitudeChange>
 			<iCloseBordersAttitudeChange>-4</iCloseBordersAttitudeChange>
 			<iLostWarAttitudeChange>-1</iLostWarAttitudeChange>
@@ -29023,7 +29023,7 @@
 			<DefensivePactRefuseAttitudeThreshold>ATTITUDE_PLEASED</DefensivePactRefuseAttitudeThreshold>
 			<PermanentAllianceRefuseAttitudeThreshold>ATTITUDE_PLEASED</PermanentAllianceRefuseAttitudeThreshold>
 			<VassalRefuseAttitudeThreshold>ATTITUDE_PLEASED</VassalRefuseAttitudeThreshold>
-			<iVassalPowerModifier>20</iVassalPowerModifier>
+			<iVassalPowerModifier>50</iVassalPowerModifier>
 			<iFreedomAppreciation>10</iFreedomAppreciation>
 			<FavoriteCivic>CIVIC_REPRESENTATION</FavoriteCivic>
 			<FavoriteReligion>NONE</FavoriteReligion>
@@ -29168,7 +29168,7 @@
 				</ContactDelay>
 				<ContactDelay>
 					<ContactType>CONTACT_DEMAND_TRIBUTE</ContactType>
-					<iContactDelay>50</iContactDelay>
+					<iContactDelay>25</iContactDelay>
 				</ContactDelay>
 				<ContactDelay>
 					<ContactType>CONTACT_OPEN_BORDERS</ContactType>
@@ -29401,16 +29401,12 @@
 			</MemoryAttitudePercents>
 			<NoWarAttitudeProbs>
 				<NoWarAttitudeProb>
-					<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-					<iNoWarProb>10</iNoWarProb>
-				</NoWarAttitudeProb>
-				<NoWarAttitudeProb>
 					<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-					<iNoWarProb>50</iNoWarProb>
+					<iNoWarProb>30</iNoWarProb>
 				</NoWarAttitudeProb>
 				<NoWarAttitudeProb>
 					<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-					<iNoWarProb>90</iNoWarProb>
+					<iNoWarProb>80</iNoWarProb>
 				</NoWarAttitudeProb>
 				<NoWarAttitudeProb>
 					<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
